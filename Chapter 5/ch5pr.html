@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 5 Practice</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li{
+            display: inline;
+            font-size: 2vw;
+            padding: 0 13px;
+        }
+
+        .list5 ul li{
+            padding: 10px 25px;
+            list-style: circle inside url("media/leaf_icon.png");
+        }
+
+        header{
+            padding: 25px;
+            background-color: black;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 4;
+        }
+        .container{
+            min-height: 1200px;
+            background-color: red;
+            border: 4px solid aqua;
+            position: relative;
+            z-index: 3;
+        }
+        .container2{
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Food</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa distinctio neque iure fugiat deserunt aspernatur repudiandae iste doloremque, a non quis vitae corporis ipsa laborum. Sed voluptatum veniam animi, placeat totam laborum deserunt necessitatibus ratione illum vel eveniet eius vitae, dolorem nemo? Molestiae omnis nam aliquid ut earum incidunt assumenda atque sunt exercitationem, veritatis voluptates fuga, saepe provident soluta.</p>
+        <div class="container2">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <div class="list5">
+        <ul>
+            <li>Siliguri</li>
+            <li>Kolkata</li>
+            <li>Shimla</li>
+            <li>Manali</li>
+            <li>Sikkim</li>
+        </ul>
+    </div>
+</body>
+
+</html>
